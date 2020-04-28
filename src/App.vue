@@ -16,6 +16,7 @@
       <li>"Oh"</li>
     </ul>
     <p>The sounds chosen by this tool are approximates, and may need to be finely tuned yourself.</p>
+    <p>Follow this project on <a href="https://github.com/Ratismal/kk" target="_blank">Github</a>!</p>
     <h2>Input</h2>
     <textarea v-model="input" rows="15" />
     <button class='button full' @click.prevent="parse">Parse</button>
