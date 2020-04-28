@@ -30,6 +30,7 @@
 
 <script>
 import Parser from '../parser';
+import fitness from './assets/fitness';
 
 export default {
   name: 'App',
@@ -37,10 +38,13 @@ export default {
   },
   data() {
     return {
-      input: '',
+      input: fitness,
       output: '',
       errors: []
     }
+  },
+  mounted() {
+    this.parse();
   },
   methods: {
     parse() {
